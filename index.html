@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Font-Awesome/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Navbar start-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Shopping</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Your Store</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="cart.html">Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="invoice.html">Invoice</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!--Navbar end-->
+  <!--Display Gallery-->
+  <!--Display name-->
+  <div class="store">
+    <div class="column">
+      <div class="container1">
+        <a href="index.html"> <img src="equipment.jpg" alt=""></a>
+      </div>
+      <div class="container2">
+        <h1 align="center">Greenery carts</h1>
+        <p align="center">Safe Use, Safe Harvests</p>
+      </div>
+    </div>
+  </div>
+  <!--End of Name-->
+  <!--Decorate 1-->
+  <div class="photocontainer">
+
+
+    <div class="photo">
+      <img src="e1.jpg" alt="Photo 1">
+      <div class="caption">Iron Fork</div>
+    </div>
+    <div class="photo">
+      <img src="e2.jpg" alt="Photo 2">
+      <div class="caption">Wheelbarrow</div>
+    </div>
+    <div class="photo">
+      <img src="e3.jpg" alt="Photo 3">
+      <div class="caption">Shovel</div>
+    </div>
+  </div>
+
+  </div>
+  <!--End of 1-->
+  <!--Display products-->
+  <div class="productcontainer">
+    <div class="card">
+      <img src="broadfork.jpg" alt="product1">
+      <h1 style="font-size: 20px; color: #D94345; font-family: 'Dosis',sans-serif; font-weight: 500;">BroadFork</h1>
+      <p style="font-size: 20px; color:black; font-family: 'Dosis',sans-serif;">Brand: Canon<br>
+
+        Availability: In Stock <br>
+        Price:Rs 180</p>
+      <button onclick="viewDetails(1)">View Details</button>
+    </div>
+    <div class="card">
+      <img src="Axe.jpg" alt="product2">
+      <h1 style="font-size: 20px; color: #D94345; font-family: 'Dosis',sans-serif; font-weight: 500;">Axe</h1>
+      <p style="font-size: 20px; color:black; font-family: 'Dosis',sans-serif;">Brand: Canon<br>
+
+
+        Availability: In Stock<br>
+        Price:Rs 250</p>
+      <button onclick="viewDetails(2)">View Details</button>
+    </div>
+    <div class="card">
+      <img src="trowel.jpg" alt="product3">
+      <h1 style="font-size: 20px; color: #D94345; font-family: 'Dosis',sans-serif; font-weight: 500;">Trowel</h1>
+      <p style="font-size: 20px; color:black; font-family: 'Dosis',sans-serif;">Brand: Canon<br>
+
+
+        Availability: In Stock<br>
+        Price:Rs 150</p>
+      <button onclick="viewDetails(3)">View Details</button>
+    </div>
+
+  </div>
+  <div class="productcontainer">
+    <div class="card">
+      <img src="gloves.jpg" alt="product4">
+      <h1 style="font-size: 20px; color: #D94345; font-family: 'Dosis',sans-serif; font-weight: 500;">Gloves</h1>
+      <p style="font-size: 20px; color:black; font-family: 'Dosis',sans-serif;">Brand:Hewlett-Packard<br>
+
+        Availability: In Stock<br>
+        Price:Rs 120</p>
+      <button onclick="viewDetails(4)">View Details</button>
+    </div>
+    <div class="card">
+      <img src="shovel.jpg" alt="product5">
+      <h1 style="font-size: 20px; color: #D94345; font-family: 'Dosis',sans-serif; font-weight: 500;">Shovel</h1>
+      <p style="font-size: 20px; color:black; font-family: 'Dosis',sans-serif;">Brand:Hewlett-Packard<br>
+
+        Availability: In Stock<br>
+        Price:Rs 300
+      </p>
+      <button onclick="viewDetails(5)">View Details</button>
+    </div>
+    <div class="card">
+      <img src="gasedger.jpg" alt="product6">
+      <h1 style="font-size: 20px; color: #D94345; font-family: 'Dosis',sans-serif; font-weight: 500;">Gas Edger</h1>
+      <p style="font-size: 20px; color:black; font-family: 'Dosis',sans-serif;">
+        Brand:Hewlett-Packard<br>
+
+        Availability: In Stock<br>
+        Price:Rs 760
+      </p>
+      <button onclick="viewDetails(6)">View Details</button>
+    </div>
+
+  </div>
+  <div class="productcontainer">
+    <div class="card">
+      <img src="hedgesears.jpg" alt="product7">
+      <h1 style="font-size: 20px; color: #D94345; font-family: 'Dosis',sans-serif; font-weight: 500;">Cultivator</h1>
+      <p style="font-size: 20px; color:black; font-family: 'Dosis',sans-serif;">Brand: Palm<br>
+
+        Availability: In Stock<br>
+        Price:Rs 320</p>
+      <button onclick="viewDetails(7)">View Details</button>
+    </div>
+    <div class="card">
+      <img src="potatofork.jpg" alt="product8">
+      <h1 style="font-size: 20px; color: #D94345; font-family: 'Dosis',sans-serif; font-weight: 500;">Potatofork</h1>
+      <p style="font-size: 20px; color:black; font-family: 'Dosis',sans-serif;">
+        Brand: Palm<br>
+
+        Availability: In Stock<br>
+        Price:Rs 230
+      </p>
+      <button onclick="viewDetails(8)">View Details</button>
+    </div>
+    <div class="card">
+      <img src="spreader.jpg" alt="product9">
+      <h1 style="font-size: 20px; color: #D94345; font-family: 'Dosis',sans-serif; font-weight: 500;">Spreader</h1>
+      <p style="font-size: 20px; color:black; font-family: 'Dosis',sans-serif;">
+        Brand: Palm<br>
+
+        Availability: In Stock<br>
+        Price:Rs 450
+      </p>
+      <button onclick="viewDetails(9)">View Details</button>
+    </div>
+
+  </div>
+  <!--End of display products-->
+  <!--End of Gallery-->
+
+</body>
+<script>
+  // Sample product data
+  const products = [
+    {
+      id: 1,
+      title: 'BroadFork',
+      description: 'Brand: Canon Availability: In Stock Price:Rs 180',
+      imageUrl: 'broadfork.jpg'
+    },
+    {
+      id: 2,
+      title: 'Axe',
+      description: 'Brand: Canon Availability: In Stock Price:Rs 250',
+      imageUrl: 'Axe.jpg'
+    },
+    {
+      id: 3,
+      title: 'Trowel',
+      description: 'Brand: Canon Availability: In Stock Price:Rs 150',
+      imageUrl: 'trowel.jpg'
+    },
+
+    {
+      id: 4,
+      title: 'Gloves',
+      description: 'Brand:Hewlett-Packard Availability: In Stock Price:Rs 120',
+      imageUrl: 'gloves.jpg'
+    },
+
+    {
+      id: 5,
+      title: 'Shovel',
+      description: 'Brand:Hewlett-Packard Availability: In Stock Price:Rs 300',
+      imageUrl: 'shovel.jpg'
+    },
+    {
+      id: 6,
+      title: 'Gasedger',
+      description: ' Brand:Hewlett-Packard  Availability: In Stock Price:Rs 760',
+      imageUrl: 'gasedger.jpg'
+    },
+
+    {
+      id: 7,
+      title: 'Cultivator',
+      description: 'Brand: Palm Availability: In Stock Price:Rs 320 ',
+      imageUrl: 'hedgesears.jpg'
+    },
+
+    {
+      id: 8,
+      title: 'Potatofork',
+      description: ' Brand: Palm Availability: In Stock   Price:Rs 230',
+      imageUrl: 'potatofork.jpg'
+    },
+
+    {
+      id: 9,
+      title: 'Spreader',
+      description: ' Brand: Palm Availability: In Stock Price:Rs 450',
+      imageUrl: 'spreader.jpg'
+    },
+
+  ];
+
+
+  function viewDetails(productId) {
+    const product = products.find(p => p.id === productId);
+    localStorage.setItem('selectedProduct', JSON.stringify(product));
+    window.location.href = 'cart.html';
+  }
+</script>
+
+</html>
